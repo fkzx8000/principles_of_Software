@@ -117,7 +117,7 @@ def apply(operation, obj1,obj2):
 ```
 
 
-##calculator
+## calculator
 
 * It can evaluate expressions that contain the following operators: `+`, `-`, `*`, `/`, `ror`
 * It can evaluate expressions that contain parentheses
