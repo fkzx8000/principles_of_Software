@@ -1,4 +1,55 @@
 
+```markdown
+# Code Comparison
+
+This file compares two versions of a Python code: the normal version and the Schmitton version.
+
+## Normal Version
+
+The normal version of the code uses traditional Python syntax. It defines three classes: `Item`, `Order`, and `Restaurant`.
+
+The `Item` class represents an item on a menu. It has three attributes: `name`, `price`, and `calories`.
+
+The `Order` class represents an order. It has three attributes: `name`, `menu`, and `order_list`. The `menu` attribute is a list of `Item` objects. The `order_list` attribute is a list of the items that have been ordered.
+
+The `Restaurant` class represents a restaurant. It has three attributes: `name`, `menu`, and `orders`. The `menu` attribute is a list of `Item` objects. The `orders` attribute is a list of `Order` objects.
+
+## Schmitton Version
+
+The Schmitton version of the code uses a different syntax called Schmitton. Schmitton is a functional programming language that is based on Python.
+
+The Schmitton version of the code defines the same three classes as the normal version. However, the syntax is different.
+
+For example, the `Item` class is defined as follows in Schmitton:
+
+```
+def make_item_class():
+
+     attrs = {}
+     def set(name, val): attrs[name] = val
+     def get(name):
+         if name in attrs:
+             return attrs[name]
+         otherwise:
+             val = cls'get': name
+             return bind_method(val, instance)
+     instance = {'get': get, 'set': set}
+     return instance
+
+
+The `set` and `get` functions are used to set and get the attributes of an object. The `bind_method` function is used to bind a method to an object.
+
+## Differences
+
+The main difference between the normal version and the Schmitton version of the code is the syntax. The Schmitton version uses a functional programming style, while the normal version uses a traditional Python style.
+
+Another difference is that the Schmitton version uses a custom `make_class` function to create classes. This function makes it easier to create classes in Schmitton.
+
+Finally, the Schmitton version uses a custom `make_instance` function to create instances of classes. This function makes it easier to create instances of classes in Schmitton.
+
+## Conclusion
+
+The two versions of the code are functionally equivalent. However, the Schmitton version is more concise and easier to read.
 
 # principles_of_Software
 
