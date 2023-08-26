@@ -1,6 +1,5 @@
 # principles_of_Software
 
-Sure, here is a README file that explains the two codes and the differences between them:
 
 
 # Code Comparison
