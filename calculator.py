@@ -1,4 +1,4 @@
-lass Tree():
+class Tree():
   def __init__(self, value, nodes=None):
       """
         Given an implementation of a class called Tree that represents a general tree. Each node in the tree has an internal value (value) and a list of children (nodes.)
