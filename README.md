@@ -3,9 +3,6 @@
 
 
 # Code Comparison
-
-This file compares two versions of a Python code: the normal version and the Schmitton version.
-
 ## Normal Version
 
 The normal version of the code uses traditional Python syntax. It defines three classes: `Item`, `Order`, and `Restaurant`.
