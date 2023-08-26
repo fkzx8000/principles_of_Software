@@ -1,6 +1,8 @@
 # principles_of_Software
 
-```markdown
+Sure, here is a README file that explains the two codes and the differences between them:
+
+
 # Code Comparison
 
 This file compares two versions of a Python code: the normal version and the Schmitton version.
@@ -23,19 +25,20 @@ The Schmitton version of the code defines the same three classes as the normal v
 
 For example, the `Item` class is defined as follows in Schmitton:
 
-```
+
 def make_item_class():
 
-     attrs = {}
-     def set(name, val): attrs[name] = val
-     def get(name):
-         if name in attrs:
-             return attrs[name]
-         otherwise:
-             val = cls'get': name
-             return bind_method(val, instance)
-     instance = {'get': get, 'set': set}
-     return instance
+    attrs = {}
+    def set(name, val): attrs[name] = val
+    def get(name):
+        if name in attrs:
+            return attrs[name]
+        else:
+            val = cls'get': name
+            return bind_method(val, instance)
+    instance = {'get': get, 'set': set}
+    return instance
+
 
 
 The `set` and `get` functions are used to set and get the attributes of an object. The `bind_method` function is used to bind a method to an object.
