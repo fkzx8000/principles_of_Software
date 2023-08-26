@@ -1,4 +1,3 @@
-Sure, here is the README file for the code you have provided:
 
 
 # principles_of_Software
@@ -67,4 +66,3 @@ The two programs in this repository demonstrate the following principles of soft
 * **Testability:** The programs are written in a way that makes them easy to test. This helps to ensure that the programs work correctly.
 * **Reusability:** The programs are written in a way that makes them easy to reuse. This helps to reduce the amount of code that needs to be written.
 
-I hope this README file is helpful. Please let me know if you have any questions.
