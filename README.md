@@ -1,8 +1,8 @@
 # principles_of_Software
 
 
-
 ## Conversion system
+
 ```python
 class Shekel:
     """
@@ -114,6 +114,8 @@ def apply(operation, obj1,obj2):
     if operation != 'add':
         raise ValueError("Invalid operation")
     if type_tag(obj1) == 'nis' or type_tag
+```
+
 
 ##calculator
 
